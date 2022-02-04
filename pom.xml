@@ -15,7 +15,7 @@
         <sonar.language>java</sonar.language>
         <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
         <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
-        <sonar.jacoco.reportPaths>${project.basedir}/target/jacoco.exec</sonar.jacoco.reportPaths>
+        <sonar.jacoco.reportPaths>${project.basedir}/jacoco.exec</sonar.jacoco.reportPaths>
         <spring.version>5.1.7.RELEASE</spring.version>
     </properties>
 
